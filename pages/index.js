@@ -29,7 +29,7 @@ export default function Home() {
 
 
         <h2>Regarding the Data</h2>
-        <p>We store the last typed text in the app in local db on the device, we do not upload it to external servers.</p>
+        <p>User can save/download statuses, these files will be stored on the device, we do not upload it to external servers.</p>
 
 
         <h2>Contacting Us</h2>
