@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Status Saver App</title>
+        <title>Status Photo & Video Saver App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
