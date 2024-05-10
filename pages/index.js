@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Status Saver App" />
+        <Header title="Status Photo & Video Saver App" />
         <p className="description">
           Download and Share Your Friends WhatsApp Status Easily
         </p>
