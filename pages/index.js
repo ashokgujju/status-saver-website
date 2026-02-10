@@ -6,17 +6,15 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Status Photo &amp; Video Saver App</title>
+        <title>Status Saver App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Status Saver App" />
+        <Header title="Status Photo &amp; Video Saver App" />
         <p className="description">
           Download and Share Your Friends WhatsApp Status Easily
         </p>
-
-        <hr style={{ margin: '24px 0' }} />
 
         <h1>Privacy Policy</h1>
         <p>
@@ -33,7 +31,7 @@ export default function Home() {
         <h2>Data the App Accesses</h2>
         <ul>
           <li>
-            <strong>WhatsApp status files</strong>: The App accesses WhatsApp and
+            <strong>WhatsApp status files:</strong> The App accesses WhatsApp and
             WhatsApp Business status files (images and videos) through Android&apos;s
             Storage Access Framework (SAF). Access is granted explicitly by the user.
           </li>
@@ -42,12 +40,12 @@ export default function Home() {
         <h2>Data Stored Locally</h2>
         <ul>
           <li>
-            <strong>Saved statuses</strong>: When a user saves a status, the file is
+            <strong>Saved statuses:</strong> When a user saves a status, the file is
             copied to the device&apos;s <code>Downloads/Status Saver/</code> folder.
             These files remain on the device and are not uploaded to any server.
           </li>
           <li>
-            <strong>App preferences</strong>: The App stores user preferences (e.g.,
+            <strong>App preferences:</strong> The App stores user preferences (e.g.,
             selected WhatsApp variant) locally using Android DataStore.
           </li>
         </ul>
@@ -64,54 +62,26 @@ export default function Home() {
           The App integrates the following third-party services, each with their own
           privacy policies:
         </p>
-
         <ul>
           <li>
             <strong>Google AdMob</strong> — Serves advertisements. May collect device
             identifiers and usage data for ad personalization.{' '}
-            <a
-              href="https://policies.google.com/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Google AdMob Privacy Policy
-            </a>
+            <a href="https://policies.google.com/privacy">Google AdMob Privacy Policy</a>
           </li>
-
           <li>
             <strong>Meta Audience Network</strong> — Serves advertisements. May collect
             device and usage data.{' '}
-            <a
-              href="https://www.facebook.com/privacy/policy/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Meta Privacy Policy
-            </a>
+            <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>
           </li>
-
           <li>
             <strong>Firebase Analytics</strong> — Collects anonymous usage statistics
             (e.g., screen views, events) to help improve the App.{' '}
-            <a
-              href="https://firebase.google.com/support/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Firebase Privacy Policy
-            </a>
+            <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>
           </li>
-
           <li>
-            <strong>Firebase Crashlytics</strong> — Collects crash reports and
-            diagnostic data to help identify and fix bugs.{' '}
-            <a
-              href="https://firebase.google.com/support/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Firebase Privacy Policy
-            </a>
+            <strong>Firebase Crashlytics</strong> — Collects crash reports and diagnostic
+            data to help identify and fix bugs.{' '}
+            <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a>
           </li>
         </ul>
 
@@ -125,12 +95,12 @@ export default function Home() {
         <h2>Permissions</h2>
         <ul>
           <li>
-            <strong>Storage / SAF access</strong>: Required to read WhatsApp status
+            <strong>Storage / SAF access:</strong> Required to read WhatsApp status
             files and save them to Downloads.
           </li>
           <li>
-            <strong>Internet</strong>: Required for serving ads and sending
-            analytics/crash reports.
+            <strong>Internet:</strong> Required for serving ads and sending analytics/crash
+            reports.
           </li>
         </ul>
 
@@ -147,7 +117,9 @@ export default function Home() {
         </p>
 
         <h2>Contact</h2>
-        <p>If you have questions about this privacy policy, please contact us at:</p>
+        <p>
+          If you have questions about this privacy policy, please contact us at:
+        </p>
         <p>
           <strong>Email:</strong> onescreenapps@gmail.com
         </p>
